@@ -3,7 +3,7 @@
 <div class="firstContainer">
     <div class="ui main text container">
         <div class="ui huge header"><%=blog.title%></div>
-        <div class="ui top attached segment">
+        <div class="ui top attached segment" style="margin-bottom: 1em;">
             <div class="item">
                 <div class="image">
                     <img src="<%=blog.image%>" class="ui centered rounded image">
@@ -11,20 +11,19 @@
                 <br>
                 <div class="content">
                     <div class="meta showDescription"><%= blog.created.toDateString()%></div>
-                    <br>
+                    
                     <div class="description showDescription">
                         <p><%= blog.body%></p>
                     </div>
-                    <br>
-                    <a class="ui teal button" href="/blogs/<%= blog._id%>/edit">Edit</a>
-                    <div style="display: inline-block;">
-                        <form action="/blogs/<%= blog._id%>?_method=DELETE" method="POST">
-                            <button type="submit" class="ui red button">Delete</button>
-                        </form>
-                    </div>
+                    <!-- <br> -->
                 </div>
-
             </div>
+        </div>
+        <a class="ui teal button" href="/blogs/<%= blog._id%>/edit">Edit</a>
+        <div style="display: inline-block;">
+            <form action="/blogs/<%= blog._id%>?_method=DELETE" method="POST">
+                <button type="submit" class="ui red button">Delete</button>
+            </form>
         </div>
     </div>
 </div>

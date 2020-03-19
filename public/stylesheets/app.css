@@ -1,4 +1,3 @@
-
 i.icon {
     font-size: 2em;
 }
@@ -12,6 +11,7 @@ i.icon {
 	font-size: 0;  */
 }
 
+
 .content{
     margin: 10px 0;
 }
@@ -22,12 +22,12 @@ i.icon {
 .masonry { /* Masonry container */
     column-count: 3;
     column-gap: 2em;
-  }
+}
   
   .masonry-item { /* Masonry bricks or child elements */
     /* background-color: #eee; */
     display: inline-block;
-    margin: 0 0 1em;
+    margin: 1em 1em;
     width: 100%;
   }
 
