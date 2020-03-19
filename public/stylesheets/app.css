@@ -1,19 +1,35 @@
-.showDescription{
-    font-family: 'Dancing Script', cursive;
-    font-size: large;
-    font-weight: 500;
-}
-
-
 
 i.icon {
     font-size: 2em;
 }
 
 .firstContainer {
-    margin-top: 7em;
-    margin-bottom: 7em;
+    /* margin-top: 7em;
+    margin-bottom: 7em; */
+    margin: 7em 7em;
+
+	/* height: 100vw;
+	font-size: 0;  */
 }
+
+.content{
+    margin: 10px 0;
+}
+
+.description{
+    margin: 10px 0;
+}
+.masonry { /* Masonry container */
+    column-count: 3;
+    column-gap: 2em;
+  }
+  
+  .masonry-item { /* Masonry bricks or child elements */
+    /* background-color: #eee; */
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+  }
 
 .ui.card{
     width: 700px;
