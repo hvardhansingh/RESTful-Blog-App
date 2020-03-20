@@ -2,6 +2,8 @@
 
 A fully functional blog app built using node.js implementing CRUD (create, read, update, delete) using the seven RESTful routes.
 
+* Tech Stack Used: [Semantic-UI](https://semantic-ui.com), [Node.js](https://nodejs.org/en/download/), [Express.js](https://expressjs.com/), [MongoDB](https://www.mongodb.com/download-center/community)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
