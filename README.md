@@ -1,4 +1,5 @@
 # RESTful Blog App
+https://vardhan-blogs.herokuapp.com/blogs
 
 A fully functional blog app built using node.js implementing CRUD (create, read, update, delete) using the seven RESTful routes.
 
